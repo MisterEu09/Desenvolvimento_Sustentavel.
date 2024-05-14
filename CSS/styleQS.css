@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 320px) and (max-width:480px) 
+{
+    section
+    {
+        height: 100vh;
+        display: block;
+    }
+    #bg {
+        height: 100vh;
+        background-color: var(--cor3);
+        background: url(../IMG/Alinhando-tecnologia-e-sustentabilidade-1024x429.jpg) right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0);
+        top: 0vh;
+    }
+    section h1, #section4 h1 {
+    font-size: 1.5em;
+    color: var(--cor1);
+    padding: 20px 15px;
+}
+#section2 img {
+    margin: 5px;
+    text-align: center;
+    border-radius: 100%;
+    width: 44vw;
+    height: 44vw;
+}
+.maneiras {
+
+    width: calc(100% + 15px);
+    display: flex;
+    overflow-y: auto;
+}
+#section4 {
+    /* padding-top: 44vw; */
+    top: 22%;
+    align-items: center;
+    height: 100vh;
+}
+}
