@@ -65,7 +65,7 @@ div.slider
 }
 .slider-box .slider-item, .slider-box-p img,.slider-box-tec .slider-item {
     display: block;
-    margin: 3px;
+    margin: 10px;
     width: 473px;
     height: 300px;
 }
@@ -141,7 +141,7 @@ div.slider
 .nav-manual-tec, .nav-auto-tec {
     position: absolute;
     width: 24%;
-    margin-top: 32vh;
+    margin-top: 33vh;
     display: flex;
     justify-content: center;
     height: 25px;
