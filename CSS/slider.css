@@ -1,0 +1,165 @@
+div.slider
+{
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+
+}
+.slider-content {
+    padding: 5px;
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+.slider-content input
+{
+    display: none;
+}
+.blocos
+{
+    display: block;
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+.nav-manual, .nav-auto {
+    position: absolute;
+    width: 25%;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+.nav-manual-p .manual-btn-p, .nav-auto-p div,
+.nav-manual .manual-btn, .nav-auto div, .nav-manual-tec .manual-btn-tec, .nav-auto-tec div
+{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto div:not(:last-child), 
+.nav-manual-p .manual-btn-p:not(:last-child), 
+.nav-auto-p div:not(:last-child),
+.nav-auto-tec div:not(:last-child),
+.nav-manual-tec .manual-btn-tec:not(:last-child)
+{
+    margin-right: 10px;
+}
+.manual-btn:hover, .manual-btn-p:hover, .manual-btn-tec:hover
+{
+    background-color: black;
+}
+#radio1:checked ~.nav-auto .auto-btn1, #radio2:checked ~.nav-auto .auto-btn2, #radio3:checked ~.nav-auto .auto-btn3, #radio4:checked ~.nav-auto .auto-btn4
+{
+    background-color: black;
+}
+#radio-p1:checked ~ .primeiro-p
+#radio-p1:checked ~.auto-btn-p1, #radio-p2:checked ~.nav-auto-p .auto-btn-p2, #radio-p3:checked ~.nav-auto-p .auto-btn-p3, #radio-p4:checked ~.nav-auto-p .auto-btn-p4
+{
+    background-color: black;
+}
+.slider-box .slider-item, .slider-box-p img,.slider-box-tec .slider-item {
+    display: block;
+    margin: 3px;
+    width: 473px;
+    height: 300px;
+}
+.slider-box-probl{
+    display: block;
+    margin: 0;
+    width: 480px;
+    height: 0;
+}
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+#radio2:checked ~ .primeiro
+{
+    margin-left: -25%;
+}#radio3:checked ~ .primeiro
+{
+    margin-left: -50%;
+}#radio4:checked ~ .primeiro
+{
+    margin-left: -75%;
+}
+
+#radio-p1:checked ~ .primeiro-p
+{
+    margin-left: 0%;
+
+}
+#radio-p2:checked ~ .primeiro-p
+{
+    margin-left: -25%;
+}#radio-p3:checked ~ .primeiro-p
+{
+    margin-left: -50%;
+}#radio-p4:checked ~ .primeiro-p
+{
+    margin-left: -75%;
+}
+#radio-p5:checked ~ .primeiro-p
+{
+    margin-left: -100%;
+}#radio-p6:checked ~ .primeiro-p
+{
+    margin-left: -125%;
+}
+.nav-manual-p, .nav-auto-p {
+    position: absolute;
+    width: 25%;
+    margin-top: 21%;
+    display: flex;
+    justify-content: center;
+}
+#radio-tec1:checked ~ .primeiro-tec{
+    margin-left: 0%;
+}
+#radio-tec2:checked ~ .primeiro-tec
+{
+    margin-left: -25%;
+}#radio-tec3:checked ~ .primeiro-tec
+{
+    margin-left: -50%;
+}#radio-tec4:checked ~ .primeiro-tec
+{
+    margin-left: -75%;
+}
+#radio-tec5:checked ~ .primeiro-tec
+{
+    margin-left: -100%;
+}#radio-tec6:checked ~ .primeiro-tec
+{
+    margin-left: -125%;
+}
+.nav-manual-tec, .nav-auto-tec {
+    position: absolute;
+    width: 24%;
+    margin-top: 32vh;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+}
+#radio-tec1:checked ~.nav-auto-tec .auto-btn1-tec,
+#radio-tec2:checked ~.nav-auto-tec .auto-btn2-tec, 
+#radio-tec3:checked ~.nav-auto-tec .auto-btn3-tec, 
+#radio-tec4:checked ~.nav-auto-tec .auto-btn4-tec, 
+#radio-tec5:checked ~.nav-auto-tec .auto-btn5-tec, 
+#radio-tec6:checked ~.nav-auto-tec .auto-btn6-tec
+{
+    background-color: black;
+}
+/*
+.nav-manual2, .nav-auto2 {
+    position: absolute;
+    width: 25%;
+    margin-top: 60%;
+    display: flex;
+    justify-content: center;
+}*/
