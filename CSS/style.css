@@ -141,7 +141,7 @@ h1{
 #bg{
     height: 100vh;
     background-color: var(--cor3);
-    background: url(/IMG/Alinhando-tecnologia-e-sustentabilidade-1024x429.jpg) right;
+    background: url(../IMG/Alinhando-tecnologia-e-sustentabilidade-1024x429.jpg) right;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -304,7 +304,7 @@ padding: 71px 27px 27px 27px;
 #Bg{
     height: 100vh;
     background-color: var(--cor3);
-    background: url(/IMG/como_usar_tecnologia_no_desenvolvimento_sustentavel.png) center;
+    background: url(../IMG/como_usar_tecnologia_no_desenvolvimento_sustentavel.png) center;
 
     background-repeat: no-repeat;
     background-size: cover;
