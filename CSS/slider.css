@@ -5,7 +5,7 @@ div.slider
     width: 100%;
     height: auto;
     padding: 0;
-
+    padding-top: 40px;
 }
 .slider-content {
     padding: 5px;
@@ -27,8 +27,8 @@ div.slider
 }
 .nav-manual, .nav-auto {
     position: absolute;
-    width: 25%;
-    margin-top: 20%;
+    width: 20%;
+    margin-top: 50vh;
     display: flex;
     justify-content: center;
 }
@@ -63,11 +63,29 @@ div.slider
 {
     background-color: black;
 }
-.slider-box .slider-item, .slider-box-p img,.slider-box-tec .slider-item {
+.slider-box .slider-item, .slider-box-p img, .slider-box-tec .slider-item {
     display: block;
     margin: 10px;
-    width: 473px;
+    width: 65vw;
     height: 300px;
+}
+.segundo, .terceiro, .quarto, .quinto , .sexto
+{
+    margin: 0 25vw;
+}
+.div .segundo,.div .terceiro,.div .quarto,.div .quinto ,.div .sexto
+{
+    width: 42vw;
+    margin-left: 51vw;
+}
+.tec .segundo, .tec .terceiro,.tec .quarto,.tec .quinto ,.tec .sexto
+{
+    margin-left: 26vw;
+}
+.slider-box-p img
+{
+width: 50vw;
+    height: 263px;
 }
 .slider-box-probl{
     display: block;
@@ -76,67 +94,65 @@ div.slider
     height: 0;
 }
 #radio1:checked ~ .primeiro{
-    margin-left: 0%;
+    margin-left: -4%;
 }
-#radio2:checked ~ .primeiro
-{
-    margin-left: -25%;
-}#radio3:checked ~ .primeiro
-{
-    margin-left: -50%;
-}#radio4:checked ~ .primeiro
-{
-    margin-left: -75%;
+#radio2:checked ~ .primeiro {
+    margin-left: -43%;
+}
+#radio3:checked ~ .primeiro {
+    margin-left: -90%;
+}
+#radio4:checked ~ .primeiro {
+    margin-left: -140%;
 }
 
 #radio-p1:checked ~ .primeiro-p
 {
     margin-left: 0%;
-
 }
 #radio-p2:checked ~ .primeiro-p
 {
-    margin-left: -25%;
+    margin-left: -40%;
 }#radio-p3:checked ~ .primeiro-p
 {
-    margin-left: -50%;
+    margin-left: -82%;
 }#radio-p4:checked ~ .primeiro-p
 {
-    margin-left: -75%;
+    margin-left: -124%;
 }
 #radio-p5:checked ~ .primeiro-p
 {
-    margin-left: -100%;
+    margin-left: -186%;
 }#radio-p6:checked ~ .primeiro-p
 {
-    margin-left: -125%;
+    margin-left: -226%;
 }
 .nav-manual-p, .nav-auto-p {
     position: absolute;
     width: 25%;
-    margin-top: 21%;
+    margin-top: 58vh;
     display: flex;
     justify-content: center;
 }
 #radio-tec1:checked ~ .primeiro-tec{
-    margin-left: 0%;
+    margin-left: -3%;
 }
 #radio-tec2:checked ~ .primeiro-tec
 {
-    margin-left: -25%;
+    margin-left: -41%;
 }#radio-tec3:checked ~ .primeiro-tec
 {
-    margin-left: -50%;
+    margin-left: -83%;
 }#radio-tec4:checked ~ .primeiro-tec
 {
-    margin-left: -75%;
+    margin-left: -126%;
 }
 #radio-tec5:checked ~ .primeiro-tec
 {
-    margin-left: -100%;
+    margin-left: -181%;
 }#radio-tec6:checked ~ .primeiro-tec
 {
-    margin-left: -125%;
+    margin-left: -223%;
 }
 .nav-manual-tec, .nav-auto-tec {
     position: absolute;

@@ -1,0 +1,22 @@
+.boogaloo-regular {
+    font-family: "Boogaloo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+footer {
+    position: relative;
+    background-color: var(--cor2);
+    color: #1f1f1f;
+    text-align: center;
+    padding: 5px;
+    bottom: -181px;
+    font-size: 1.1em;
+    font-family: "Boogaloo";
+}
+footer a {
+       text-decoration: none;
+
+}
+footer a:hover{
+    text-decoration: underline;
+}

@@ -31,7 +31,7 @@ function proximoSlideProbl()
 {
     contProbl++
 
-    if(contProbl>4)
+    if(contProbl>6)
         {
             contProbl = 1;
         }
@@ -44,7 +44,7 @@ document.getElementById('radio-tec2').checked = true;
 
 setInterval(() => {
     proximoSlideTec()
-}, 5000);
+}, 15000);
 
 function proximoSlideTec()
 {

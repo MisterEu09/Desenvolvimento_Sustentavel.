@@ -10,6 +10,7 @@
     --cor2: #d9eadb;
     --cor4: #1f1f1f ;
     --cor5: #e6e0dc;
+    --cor6: #228217;
 }
 *{
     padding: 0px;
@@ -21,11 +22,11 @@
 
 html, body{
     font-size: 1em;
-    background-color: var(--cor5);
+    background-color: #c6c0bc;
     color: var(--cor4);
     overflow-x: hidden;
     height: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Boogaloo";
 }
 header{
     background-color: rgba(0, 0, 0, 0.385);
@@ -76,6 +77,11 @@ nav
     margin: 5px ;
     width: 50px;
 }
+#navbar a
+{
+    color: #e6e0dc;
+    text-decoration: none;
+}
 #burguer2{
     display: block;
     color: var(--cor1);
@@ -86,11 +92,247 @@ nav
     display: block;
     padding: 10px;
     background-color: #000c0215;
-    border-radius: 10px;
-    border-right: 10px solid #000c0249;
-    border-bottom: 8px solid #000c026e;
+
 }
 .titulos2:hover ~ .text
 {
     display: block;
+}
+@media screen and (min-width: 800px) 
+{
+    body
+    {
+        margin-left: 8vw;
+    }
+    section{width: 85vw;}
+}
+.boogaloo-regular {
+    font-family: "Boogaloo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#Problemas
+{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--cor5);
+    border: 0px;
+    width: 200px;
+    left: 35vw;
+    font-family: "Boogaloo";
+}
+#section9
+{
+    margin: 80px auto;
+}
+#P-h1
+{   
+    padding: 30px;
+    left: 30vw;
+    font-size: 2.7em;
+    font-family: "Boogaloo"; 
+}
+h3
+{
+    font-size: 1.4em;
+    font-weight: 400;
+    left: 2vw;
+}
+.parte1, .parte2
+{
+   
+    
+    width: 40vw;
+    height: 300px;
+    display: inline-block;
+
+    margin: 0;
+    align-items: center;
+    top:0px;
+}
+.parte1
+{
+    background-color: var(--cor4);
+}
+.parte2{background-color: var(--cor6);}
+.blocos2
+{
+    height: auto;
+    flex-direction: row;
+    display: flex;
+    margin: 30px;
+}
+.title
+{
+    padding-top: 5%;
+    color: var(--cor2);
+    font-size: 1.8em;
+}
+.text
+{
+    color: var(--cor4);
+    
+    font-size: 1.4em;
+    padding-top: 7%;}
+
+    .nun
+{
+    text-shadow: 0.1em 0.1em #333;
+    text-align: center;
+    color: var(--cor2);
+    font-size: 4.8em;
+    width: 40vw;
+    font-weight: 550;
+    margin-right: 50px;
+}
+.parte{
+    margin-top: 2.8%;
+}
+.esquerda
+{
+    margin-right: 40px;
+}
+.erro {
+    top: -77px;
+}
+.parte img {
+    right: 578px;
+    top: 170px;
+    position: absolute;
+    width: 136px;
+}
+#video
+{
+    display: inline-flex;
+}
+#rigth
+{
+    left: 73px;
+    width: 38vw;
+    margin: 1px 46px 5px 1px;
+}
+#rigth h1
+{
+    font-size: 3em;
+    padding: 20px;
+}
+#rigth p{
+    font-size: 1.5em;
+    padding: 20px;
+}
+#left
+{
+    left: 73px;
+    margin:0;
+    width: 35vw;   
+}
+#tabela
+{
+    border-top: 10px solid #000c0215;
+    padding-top: 80px;
+    margin-left: 15vw;
+    width: 85vw;
+    padding-bottom: 50px;
+}
+#tabela h1
+{
+    font-size: 4em;
+    padding: 20px;
+}
+#tabela p
+{
+    font-size: 1.5em;
+    padding: 20px;
+}
+th{
+    border: 1px solid black;
+    font-size: 1.5em;
+}
+td
+{
+    border: 1px solid black;
+    font-size: 1.3em;
+}
+
+#spot {
+    position: fixed;
+    padding: 8px;
+    background-color: var(--cor4);
+    top: 89vh;
+    right: 5vw;
+    border-radius: 50px;
+    transition: 0.5s;
+    display: block;
+}
+#spot:hover
+{
+
+    padding: 10px;
+   
+}
+#span
+{
+    display: flex;
+}
+#IframeS
+{
+    display: none;
+}
+.music iframe {
+    transition: .5s;
+    right: 21px;
+    bottom: 0;
+    position: fixed;
+    display: block;
+    height: 85px;
+}
+.bgplay {
+    bottom: 18px;
+    z-index: 1;
+    display: block;
+    padding: 24px;
+    position: fixed;
+    right: 34px;
+}
+.bgplay:hover {
+    background-color: #03350b22;
+    border-radius: 50%;
+}
+.play{
+    border: solid 3px rgb(255, 255, 255);
+    width: 48px;
+    height: 48px;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play span{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent rgb(190, 178, 178);
+    display: block;
+    margin-left: 2px;
+}
+.imgAlter
+{
+    display: none;
+}
+footer {
+    position: relative;
+    background-color: var(--cor2);
+    color: #1f1f1f;
+    text-align: center;
+    padding: 5px;
+    bottom: -181px;
+    font-size: 1.1em;
+    font-family: "Boogaloo";
+    left: -81px;
 }

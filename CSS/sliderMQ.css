@@ -2,17 +2,78 @@
 
 @media screen and (min-width: 320px) and (max-width:480px) 
 {
-    #section4
+    section
     {
-        background-color: aqua;
+        height: 100%;
+    }
+    #section5
+    {
+        
     }
     #section4 p {
         font-size: 0.9em;
     }
+    .texto p, #conteudoP p {
+        font-size: .9em;
+        padding: 15px;
+        text-indent: 1.45em;
+    }
+.slider-box .texto{display: none;}
+.imgAlter{display: block;
+    text-align: center;
 }
-.texto{display: none;}
-.slider-box:hover{
-    background-color: aliceblue;
+.nav-manual-tec, .nav-auto-tec {
+    position: absolute;
+    width: 24%;
+    margin-top: 52vh;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+}
+.imgAlter img {
+    margin: auto;
+    width: 60vw;
+    height: 35vh;
+}
+
+    #img1
+    {}
+    #img1
+    {}
+    #img1
+    {}
+    #radio-p2:checked ~ .primeiro-p {
+        margin-left: -88vw;
+    }
+    #radio-p3:checked ~ .primeiro-p {
+        margin-left: -179vw;
+    }
+    #radio-p4:checked ~ .primeiro-p {
+        margin-left: -272vw;
+    }
+    #radio-p5:checked ~ .primeiro-p {
+        margin-left: -359vw;
+    }
+    #radio-p6:checked ~ .primeiro-p {
+        margin-left: -451vw;
+    }
+    .slider-box-p img {
+        margin: auto;
+        width: 60vw;
+        height: 35vh;
+        margin: 0 15vw;
+        height: 50vw;
+    }
+
+    #radio-tec4:checked ~ .primeiro-tec {
+        margin-left: -73%;
+    }
+    #radio-tec5:checked ~ .primeiro-tec {
+        margin-left: -98%;
+    }
+
+#radio-tec6:checked ~ .primeiro-tec {
+    margin-left: -122%;
 }
 .slider-box:hover ~.texto{display: flex;}
 .titulos p {
@@ -32,7 +93,7 @@
     padding: 15px;
     text-indent: 1.5em;
 }
-    .slider-box .slider-item, .slider-box-p img, .slider-box-tec .slider-item {
+    .slider-box .slider-item, .slider-box-tec .slider-item {
         display: block;
         margin: 10px;
         width: 85vw;
@@ -47,6 +108,8 @@
     #radio3:checked ~ .primeiro {
         margin-left: -48%;
     }
+    .titulos h3 {
+        width: 82vw;}
 }
 @media screen and (min-width: 550px) 
 {

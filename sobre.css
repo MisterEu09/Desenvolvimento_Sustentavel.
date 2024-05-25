@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'WhoaCats';
+    src: url(fontes/whocats/Whocats.ttf);
+}
+*
+{margin: 0;}
+:root
+{
+    --cor1: #03350b;
+    --cor3: #000c023d;
+    --cor2: #d9eadb;
+    --cor4: #1f1f1f ;
+    --cor5: #e6e0dc;
+    --cor6: #228217;
+}
+body
+{
+    overflow-x: hidden;
+    background-color: var(--cor5);
+}
+.boogaloo-regular {
+    font-family: "Boogaloo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+#about
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left
+{
+    width: 18vw;
+    margin: 10vw;
+}
+.right
+{
+    width: 45vw;
+    margin: 10vw;
+}
+.left img
+{
+    width: 30vw;
+    border-radius: 50px;
+}
+.right h1, #ourTime h1
+{
+    font-family:'WhoaCats' ;
+    font-size: 3em;
+    text-indent: 3em;
+    color: #1f1f1f;
+}
+p
+{
+    text-indent: 1em;
+    font-size: 1.2em;
+    font-family: "Boogaloo";
+    color: #343434;
+}
+#ourTime
+{
+    width: 100vw;
+    padding: 15px 50px;
+    align-items: center;
+    display: grid;
+}
+#ourTime h1
+{
+    
+    text-indent: 5em;   
+    padding: 20px;
+}
+.people
+{
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+}
+#time
+{
+
+    right: -55px;
+    margin-left: 1vw;
+    justify-content: space-between;
+    display: flex;
+    width: 93vw;
+    background-color: #bfc5bfbc;
+}
+.group
+{
+    /*
+    width: 98vw;
+    background-color: aqua;
+    border-right: 10px double blue ;
+    display: inline-block;*/
+}
+.integrante
+
+{
+    text-align: center;
+
+    display: block;
+    margin: 10px;
+    width: 45vw;
+    height: 80vh;
+    border-bottom: 5px dashed ;
+    /*
+
+    background-color: violet;
+    flex-direction: row;
+    width: 35vw;
+*/
+}
+.integrante p 
+{
+    margin-left: 1vw;
+    width: 43vw;
+    text-align: justify;
+}   
+.stickers img
+{
+    position: relative;
+    top: 0px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width:100px;
+    border-radius: 50px;
+}
+#Cellbit
+{
+    left: 405px;
+    top: -501px;
+    transform: rotate(-34deg)
+}
+#Star {
+    left: 139px;
+    top: -412px;
+    transform: rotate(-20deg);
+    width: auto;
+    height: 132px;
+}
+#Teen {
+    top: -524px;
+    width: auto;
+    height: 80px;
+    left: 407px;
+    transform: rotate(-22deg);
+}
+
+
+#Imagine {
+    width: auto;
+    height: 143px;
+    left: 388px;
+    top: -553px;
+    transform: rotate(21deg);
+}
+#Iron {
+    left: 162px;
+    top: -484px;
+    transform: rotate(-26deg);
+    width: auto;
+    height: 124px;
+}
+#Genshin {
+    top: -598px;
+    width: auto;
+    height: 102px;
+    left: 407px;
+    transform: rotate(-22deg);
+}
+
+
+#Stardew {
+    top: -724px;
+    width: auto;
+    height: 80px;
+    left: 162px;
+    transform: rotate(-26deg);
+}
+#Carros {
+    width: 106px;
+    left: 404px;
+    top: -277px;
+    transform: rotate(-27deg);
+}
+#Kung {
+    left: 139px;
+    top: -397px;
+    transform: rotate(25deg);
+    width: auto;
+    height: 150px;
+}
+
+
+#Queen {
+    top: -465px;
+    width: auto;
+    height: 112px;
+    left: 167px;
+    transform: rotate(-22deg);
+}
+
+#BackTo {
+    width: 212px;
+    left: 145px;
+    top: -497px;
+    transform: rotate(-24deg);
+}
+#Dishonored {
+    left: 365px;
+    top: -378px;
+    transform: rotate(-3deg);
+    width: auto;
+    height: 96px;
+}
+.classe
+{
+
+    width: 25%;
+    color: var(--cor1);
+    padding: 20px;
+    font-size: 1.7em;
+    text-indent: 8em;
+}

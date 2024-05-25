@@ -40,7 +40,7 @@ main{
 
 }
 #imagem{
-    background: #5f2c82 url(/Aps/IMG/logo2.jpg) no-repeat center center;
+    background: #5f2c82 url(/IMG/logo2.jpg) no-repeat center center;
     background-size: cover;
     height: 190px;
     display: block;
